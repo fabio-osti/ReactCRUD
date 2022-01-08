@@ -1,0 +1,31 @@
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #E01A76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.content {
+	top: 50%;
+	left: 50%;
+	right: auto;
+	bottom: auto;
+	margin-right: -50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.error {
+	color: red;
+	font-weight: bold;
+	padding-top: 0px;
+	margin-bottom: 0px;
+}
