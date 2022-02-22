@@ -20,3 +20,8 @@ export function buildAspHttpInit(method = "POST", body?: string, token?: string)
 		...(body === undefined ? {} : { body: body }),
 	};
 }
+
+export interface ApiResponse<TResponse> {
+	count: number,
+	response: TResponse[]
+}

@@ -12,7 +12,6 @@ interface IProps {
 	auth: AuthHandler;
 }
 interface IState {
-	forecasts: any[];
 	persons: IPerson[];
 	filter?: IPerson;
 	update?: IPerson;
@@ -42,7 +41,6 @@ export class FetchData extends Component<IProps, IState> {
 	constructor(props: any) {
 		super(props);
 		this.state = {
-			forecasts: [],
 			persons: [],
 			loading: true,
 			page: 1,
